@@ -1,6 +1,6 @@
 cad/*
-four-layer-board-backups/*
+hardware/four-layer-board-backups/*
 pictures/*
 production/
-*.kicad_prl
-fp-info-cache
+hardware/*.kicad_prl
+hardware/fp-info-cache

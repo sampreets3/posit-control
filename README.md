@@ -1,2 +1,4 @@
 # posit-control
-A custom DC motor controller
+A custom STM32 based DC motor controller, with USB interfacing. 
+
+
