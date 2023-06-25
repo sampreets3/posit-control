@@ -1,4 +1,6 @@
 cad/*
-i2c-motor-driver-backups/*
+four-layer-board-backups/*
 pictures/*
 production/
+*.kicad_prl
+fp-info-cache
