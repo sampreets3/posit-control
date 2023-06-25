@@ -5,6 +5,7 @@
   (paper "A4")
 
   (title_block
+    (title "Posit: A STM32 based DC motor controller")
     (rev "A")
     (company "Sampreet SARKAR")
   )
@@ -1167,7 +1168,7 @@
     (uuid 58fac0e8-0e57-420d-9ee9-b8839579d5aa)
     (property "Reference" "J6" (id 0) (at 24.13 91.44 0))
     (property "Value" "UART" (id 1) (at 24.13 107.95 0))
-    (property "Footprint" "" (id 2) (at 24.13 100.33 0)
+    (property "Footprint" "Connector_JST:JST_PH_S4B-PH-K_1x04_P2.00mm_Horizontal" (id 2) (at 24.13 100.33 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 24.13 100.33 0)

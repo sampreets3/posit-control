@@ -5,6 +5,8 @@
   (paper "A4")
 
   (title_block
+    (title "Posit: A STM32 based DC motor controller")
+    (date "2023-06-25")
     (rev "A")
     (company "Sampreet SARKAR")
   )
