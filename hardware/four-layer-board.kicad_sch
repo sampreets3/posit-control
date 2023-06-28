@@ -1761,6 +1761,12 @@
     (path "/38301e58-d617-4386-91a0-b5d6884075ca/b1d922cf-c599-4ffd-8151-829703fe4a63"
       (reference "#PWR054") (unit 1) (value "GND") (footprint "")
     )
+    (path "/38301e58-d617-4386-91a0-b5d6884075ca/ece8df4a-4439-48cc-b9de-fe3f45e209c9"
+      (reference "#PWR055") (unit 1) (value "+3.3V") (footprint "")
+    )
+    (path "/38301e58-d617-4386-91a0-b5d6884075ca/4ed8ef82-a747-48ee-bd21-d19eafad38d8"
+      (reference "#PWR056") (unit 1) (value "GND") (footprint "")
+    )
     (path "/2f2dc9ef-7e1b-45af-b150-2e2af3cc9f5f"
       (reference "#PWR0101") (unit 1) (value "VBUS") (footprint "")
     )
@@ -1911,6 +1917,9 @@
     (path "/38301e58-d617-4386-91a0-b5d6884075ca/b7978ffb-5794-4c96-96ff-98b4760048fc"
       (reference "JP1") (unit 1) (value "Boot Jumper") (footprint "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm")
     )
+    (path "/38301e58-d617-4386-91a0-b5d6884075ca/75f76c48-b087-41af-ba51-4ca9e9a9b2d8"
+      (reference "JP2") (unit 1) (value "Boot Jumper") (footprint "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm")
+    )
     (path "/38301e58-d617-4386-91a0-b5d6884075ca/720694ce-970a-4806-b6dc-b6f29926a3ef"
       (reference "L1") (unit 1) (value "39n") (footprint "Inductor_SMD:L_0603_1608Metric")
     )
@@ -1964,6 +1973,9 @@
     )
     (path "/38301e58-d617-4386-91a0-b5d6884075ca/37bbb4a0-e441-42b8-ac9c-5bcb029d06f1"
       (reference "R16") (unit 1) (value "1k5") (footprint "Resistor_SMD:R_0402_1005Metric")
+    )
+    (path "/38301e58-d617-4386-91a0-b5d6884075ca/25911374-c86b-4b40-aeac-d84b34d345de"
+      (reference "R17") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/38301e58-d617-4386-91a0-b5d6884075ca/2d758403-d18d-4f70-9945-02135508fd40"
       (reference "SW1") (unit 1) (value "B3U-1000P") (footprint "Button_Switch_SMD:SW_SPST_B3U-1000P")
