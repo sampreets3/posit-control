@@ -1767,6 +1767,9 @@
     (path "/38301e58-d617-4386-91a0-b5d6884075ca/4ed8ef82-a747-48ee-bd21-d19eafad38d8"
       (reference "#PWR056") (unit 1) (value "GND") (footprint "")
     )
+    (path "/38301e58-d617-4386-91a0-b5d6884075ca/daf5a728-3300-424e-9c2d-e7a7fcaa2ab4"
+      (reference "#PWR057") (unit 1) (value "GND") (footprint "")
+    )
     (path "/2f2dc9ef-7e1b-45af-b150-2e2af3cc9f5f"
       (reference "#PWR0101") (unit 1) (value "VBUS") (footprint "")
     )
@@ -1884,6 +1887,9 @@
     (path "/38301e58-d617-4386-91a0-b5d6884075ca/6bad25d9-fde6-4247-9896-591b0d179804"
       (reference "D14") (unit 1) (value "green") (footprint "LED_SMD:LED_0603_1608Metric")
     )
+    (path "/38301e58-d617-4386-91a0-b5d6884075ca/c9c6da3f-3333-4c26-ac03-8a8618dd37e2"
+      (reference "D15") (unit 1) (value "orange") (footprint "LED_SMD:LED_0603_1608Metric")
+    )
     (path "/d3e10d87-59ed-4cd4-9f32-e9aa8deb81a2"
       (reference "H1") (unit 1) (value "M3") (footprint "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad")
     )
@@ -1976,6 +1982,9 @@
     )
     (path "/38301e58-d617-4386-91a0-b5d6884075ca/25911374-c86b-4b40-aeac-d84b34d345de"
       (reference "R17") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0402_1005Metric")
+    )
+    (path "/38301e58-d617-4386-91a0-b5d6884075ca/ef4914f7-0c0c-45fe-a8d7-19766527a8f2"
+      (reference "R18") (unit 1) (value "1k5") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/38301e58-d617-4386-91a0-b5d6884075ca/2d758403-d18d-4f70-9945-02135508fd40"
       (reference "SW1") (unit 1) (value "B3U-1000P") (footprint "Button_Switch_SMD:SW_SPST_B3U-1000P")
