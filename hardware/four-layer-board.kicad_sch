@@ -1845,6 +1845,12 @@
     (path "/66d5fe93-feea-4c1f-9c18-d27390976820/b056caaf-4a29-4480-9891-3c4622d4440c"
       (reference "C21") (unit 1) (value "4u7") (footprint "Capacitor_SMD:C_0805_2012Metric")
     )
+    (path "/66d5fe93-feea-4c1f-9c18-d27390976820/39e185d8-5fdb-43ca-9c8f-d6f280cd52f6"
+      (reference "C22") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0603_1608Metric")
+    )
+    (path "/66d5fe93-feea-4c1f-9c18-d27390976820/a9d9c881-f39f-4071-b98f-c523a4d0c947"
+      (reference "C23") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0603_1608Metric")
+    )
     (path "/e9bfbfe2-9ef8-4a47-a363-35bb4e928150"
       (reference "D1") (unit 1) (value "B5819W") (footprint "Diode_SMD:D_SOD-123")
     )
