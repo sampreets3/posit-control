@@ -1770,6 +1770,12 @@
     (path "/38301e58-d617-4386-91a0-b5d6884075ca/daf5a728-3300-424e-9c2d-e7a7fcaa2ab4"
       (reference "#PWR057") (unit 1) (value "GND") (footprint "")
     )
+    (path "/38301e58-d617-4386-91a0-b5d6884075ca/d0b813b0-1c3e-48a8-a1d7-efcd0b776bd8"
+      (reference "#PWR058") (unit 1) (value "+12V") (footprint "")
+    )
+    (path "/38301e58-d617-4386-91a0-b5d6884075ca/0ab517bf-0087-4d12-a62e-d0aec717ae17"
+      (reference "#PWR059") (unit 1) (value "GND") (footprint "")
+    )
     (path "/2f2dc9ef-7e1b-45af-b150-2e2af3cc9f5f"
       (reference "#PWR0101") (unit 1) (value "VBUS") (footprint "")
     )
@@ -1911,17 +1917,17 @@
     (path "/76465b29-e32e-4346-8cf5-9d8dd041bb86/130ede9c-b6f9-4d4a-a846-2e4defa2d1f9"
       (reference "J1") (unit 1) (value "USB_B_Micro") (footprint "Connector_USB:USB_Micro-B_Molex-105017-0001")
     )
-    (path "/76465b29-e32e-4346-8cf5-9d8dd041bb86/7bf49c7a-79f2-4c65-9260-3d71a601f304"
-      (reference "J2") (unit 1) (value "SWD Connector") (footprint "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical")
+    (path "/76465b29-e32e-4346-8cf5-9d8dd041bb86/8bed91da-02af-4b97-bb51-818d5a37bf0e"
+      (reference "J2") (unit 1) (value "Conn_ARM_SWD_TagConnect_TC2030-NL") (footprint "Connector:Tag-Connect_TC2030-IDC-NL_2x03_P1.27mm_Vertical")
     )
     (path "/76465b29-e32e-4346-8cf5-9d8dd041bb86/a2cc9f61-4f80-4dd3-a46d-14ccd978c949"
       (reference "J3") (unit 1) (value "PWR") (footprint "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-2-2.54_1x02_P2.54mm_Horizontal")
     )
-    (path "/66d5fe93-feea-4c1f-9c18-d27390976820/057f0035-1f35-4178-8775-fbac522fef8d"
-      (reference "J4") (unit 1) (value "Conn_01x06") (footprint "Connector_JST:JST_PH_S6B-PH-K_1x06_P2.00mm_Horizontal")
+    (path "/66d5fe93-feea-4c1f-9c18-d27390976820/0619b5c4-6484-45d9-9ec4-5884400ec8a7"
+      (reference "J4") (unit 1) (value "JST-EH_B6B") (footprint "Connector_JST:JST_EH_B6B-EH-A_1x06_P2.50mm_Vertical")
     )
-    (path "/66d5fe93-feea-4c1f-9c18-d27390976820/9a70b3fe-989d-4fe4-91ba-9c2522bc52db"
-      (reference "J5") (unit 1) (value "Conn_01x06") (footprint "Connector_JST:JST_PH_S6B-PH-K_1x06_P2.00mm_Horizontal")
+    (path "/66d5fe93-feea-4c1f-9c18-d27390976820/6feb0c27-b9ef-4bbd-87a9-5ebc17e5fe22"
+      (reference "J5") (unit 1) (value "JST-EH_B6B") (footprint "Connector_JST:JST_EH_B6B-EH-A_1x06_P2.50mm_Vertical")
     )
     (path "/76465b29-e32e-4346-8cf5-9d8dd041bb86/58fac0e8-0e57-420d-9ee9-b8839579d5aa"
       (reference "J6") (unit 1) (value "UART") (footprint "Connector_JST:JST_PH_S4B-PH-K_1x04_P2.00mm_Horizontal")
@@ -1991,6 +1997,12 @@
     )
     (path "/38301e58-d617-4386-91a0-b5d6884075ca/ef4914f7-0c0c-45fe-a8d7-19766527a8f2"
       (reference "R18") (unit 1) (value "1k5") (footprint "Resistor_SMD:R_0402_1005Metric")
+    )
+    (path "/38301e58-d617-4386-91a0-b5d6884075ca/0d601657-b996-419a-a141-3dee2696fba4"
+      (reference "R19") (unit 1) (value "1k5") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+    )
+    (path "/38301e58-d617-4386-91a0-b5d6884075ca/71699b31-c9fc-47d9-a974-0c7663ad7b46"
+      (reference "R20") (unit 1) (value "1k5") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
     )
     (path "/38301e58-d617-4386-91a0-b5d6884075ca/2d758403-d18d-4f70-9945-02135508fd40"
       (reference "SW1") (unit 1) (value "B3U-1000P") (footprint "Button_Switch_SMD:SW_SPST_B3U-1000P")
