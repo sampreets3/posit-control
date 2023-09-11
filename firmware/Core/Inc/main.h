@@ -65,6 +65,10 @@ void Error_Handler(void);
 #define M2_ENCA_GPIO_Port GPIOA
 #define M2_ENCB_Pin GPIO_PIN_5
 #define M2_ENCB_GPIO_Port GPIOA
+#define BATT_STAT_Pin GPIO_PIN_1
+#define BATT_STAT_GPIO_Port GPIOB
+#define STAT_LED_Pin GPIO_PIN_14
+#define STAT_LED_GPIO_Port GPIOB
 #define M1_ENCB_Pin GPIO_PIN_4
 #define M1_ENCB_GPIO_Port GPIOB
 #define M1_ENCA_Pin GPIO_PIN_5
