@@ -110,6 +110,7 @@ int main(void)
 	  HAL_GPIO_WritePin(STAT_LED_GPIO_Port, STAT_LED_Pin, GPIO_PIN_SET);
 	  HAL_Delay(500);
 	  HAL_GPIO_WritePin(STAT_LED_GPIO_Port, STAT_LED_Pin, GPIO_PIN_RESET);
+	  HAL_Delay(500);
   }
   /* USER CODE END 3 */
 }
