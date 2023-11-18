@@ -26,7 +26,8 @@
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-
+#include "posit_hal.h"
+#include "string.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -58,7 +59,7 @@ void SystemClock_Config(void);
 
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
-
+char *data = "Hello world, from POSIT USB CDC\r\n";
 /* USER CODE END 0 */
 
 /**
@@ -68,7 +69,7 @@ void SystemClock_Config(void);
 int main(void)
 {
   /* USER CODE BEGIN 1 */
-
+  demoFunction();
   /* USER CODE END 1 */
 
   /* MCU Configuration--------------------------------------------------------*/
@@ -105,6 +106,8 @@ int main(void)
 
     /* USER CODE BEGIN 3 */
 
+	TransmitDataFrame(data);
+	HAL_Delay(1000);
   }
   /* USER CODE END 3 */
 }

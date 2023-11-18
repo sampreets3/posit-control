@@ -268,6 +268,7 @@ static int8_t CDC_Receive_FS(uint8_t* Buf, uint32_t *Len)
 	{
 		HAL_GPIO_WritePin(GPIOB, GPIO_PIN_14, GPIO_PIN_RESET);
 	}
+	printf("%c\n", Buf[0]);
 	CDC_Transmit_FS(Buf[0], 1);
 	return (USBD_OK);
   /* USER CODE END 6 */

@@ -1,0 +1,4 @@
+DEBUG:__main__:Searching for USB COM devices . . .
+DEBUG:__main__:Found device : COM4
+DEBUG:__main__:Closing previously open port : COM4
+WARNING:__main__:Could not open device COM4 : None

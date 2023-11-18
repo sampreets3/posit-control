@@ -79,7 +79,7 @@ void Error_Handler(void);
 #define M1_IN2_GPIO_Port GPIOB
 
 /* USER CODE BEGIN Private defines */
-
+#include "posit_hal.h"
 /* USER CODE END Private defines */
 
 #ifdef __cplusplus
