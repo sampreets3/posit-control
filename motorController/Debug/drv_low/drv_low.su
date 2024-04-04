@@ -1,0 +1,5 @@
+../drv_low/drv_low.c:29:13:DrvLowInitController	40	static
+../drv_low/drv_low.c:56:13:DrvLowStartMotor	4	static
+../drv_low/drv_low.c:66:13:DrvLowMotorMoveForward	16	static
+../drv_low/drv_low.c:85:13:DrvLowMotorMoveReverse	16	static
+../drv_low/drv_low.c:104:13:DrvLowStopStopMotor	16	static

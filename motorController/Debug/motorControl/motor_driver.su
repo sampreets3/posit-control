@@ -1,0 +1,5 @@
+../motorControl/motor_driver.c:15:13:MotorDriverInit	8	static
+../motorControl/motor_driver.c:21:13:MotorDriverStartMotor	8	static
+../motorControl/motor_driver.c:27:13:MotorDriverMoveForward	16	static
+../motorControl/motor_driver.c:34:13:MotorDriverMoveBackward	16	static
+../motorControl/motor_driver.c:41:13:MotorDriverStopMotor	16	static
