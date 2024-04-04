@@ -27,6 +27,13 @@
 extern void MotorDriverInit(void);
 
 /**
+ * @brief   Start the motor intially.
+ *
+ * @return  None
+ */
+extern void MotorDriverStartMotor(void);
+
+/**
  * @brief   Move the motor forward.
  *
  * @param	speed_u16   : Speed of the motor, which is duty cycle for pwm.
