@@ -47,8 +47,8 @@ extern void DrvLowInitController(void)
 
     HAL_GPIO_Init(GPIOB, &GPIO_InitStructB);
 
-    DrvLowStopMotor(DRV_LOW_LEFT_MOTOR);
-    DrvLowStopMotor(DRV_LOW_RIGHT_MOTOR);
+    DrvLowStopMotor();
+    DrvLowStopMotor();
 }
 
 
@@ -63,59 +63,32 @@ extern void DrvLowStartMotor(void)
 }
 
 
-extern void DrvLowMotorMoveForward(DrvLowMotorSelectorEn selector_en, uint16_t speed_u16)
+extern void DrvLowMotorMoveForward(uint16_t speed_u16)
 {
-	if(selector_en == DRV_LOW_RIGHT_MOTOR)
-	{
-		__HAL_TIM_SET_COMPARE(&htim4, TIM_CHANNEL_1, speed_u16);
-		__HAL_TIM_SET_COMPARE(&htim4, TIM_CHANNEL_2, 0u);
-	}
-	else if(selector_en == DRV_LOW_LEFT_MOTOR)
-	{
-		__HAL_TIM_SET_COMPARE(&htim2, TIM_CHANNEL_3, 0u);
-		__HAL_TIM_SET_COMPARE(&htim2, TIM_CHANNEL_4, speed_u16);
-	}
-	else
-	{
-		/* Do nothing */
-	}
+	__HAL_TIM_SET_COMPARE(&htim4, TIM_CHANNEL_1, speed_u16);
+	__HAL_TIM_SET_COMPARE(&htim4, TIM_CHANNEL_2, 0u);
+
+	__HAL_TIM_SET_COMPARE(&htim2, TIM_CHANNEL_3, 0u);
+	__HAL_TIM_SET_COMPARE(&htim2, TIM_CHANNEL_4, speed_u16);
 }
 
 
-extern void DrvLowMotorMoveReverse(DrvLowMotorSelectorEn selector_en, uint16_t speed_u16)
+extern void DrvLowMotorMoveReverse(uint16_t speed_u16)
 {
-	if(selector_en == DRV_LOW_RIGHT_MOTOR)
-	{
-		__HAL_TIM_SET_COMPARE(&htim4, TIM_CHANNEL_1, 0u);
-		__HAL_TIM_SET_COMPARE(&htim4, TIM_CHANNEL_2, speed_u16);
-	}
-	else if(selector_en == DRV_LOW_LEFT_MOTOR)
-	{
-		__HAL_TIM_SET_COMPARE(&htim2, TIM_CHANNEL_3, 0u);
-		__HAL_TIM_SET_COMPARE(&htim2, TIM_CHANNEL_4, speed_u16);
-	}
-	else
-	{
-		/* Do nothing */
-	}
+	__HAL_TIM_SET_COMPARE(&htim4, TIM_CHANNEL_1, 0u);
+	__HAL_TIM_SET_COMPARE(&htim4, TIM_CHANNEL_2, speed_u16);
+
+	__HAL_TIM_SET_COMPARE(&htim2, TIM_CHANNEL_3, 0u);
+	__HAL_TIM_SET_COMPARE(&htim2, TIM_CHANNEL_4, speed_u16);
 }
 
 
-extern void DrvLowStopStopMotor(DrvLowMotorSelectorEn selector_en)
+extern void DrvLowStopStopMotor(void)
 {
-	if(selector_en == DRV_LOW_RIGHT_MOTOR)
-	{
-		__HAL_TIM_SET_COMPARE(&htim4, TIM_CHANNEL_1, DRV_LOW_BRAKE_DUTY_CYCLE);
-		__HAL_TIM_SET_COMPARE(&htim4, TIM_CHANNEL_2, DRV_LOW_BRAKE_DUTY_CYCLE);
-	}
-	else if(selector_en == DRV_LOW_RIGHT_MOTOR)
-	{
-		__HAL_TIM_SET_COMPARE(&htim2, TIM_CHANNEL_3, DRV_LOW_BRAKE_DUTY_CYCLE);
-		__HAL_TIM_SET_COMPARE(&htim2, TIM_CHANNEL_4, DRV_LOW_BRAKE_DUTY_CYCLE);
-	}
-	else
-	{
-		/* Do nothing */
-	}
+	__HAL_TIM_SET_COMPARE(&htim4, TIM_CHANNEL_1, DRV_LOW_BRAKE_DUTY_CYCLE);
+	__HAL_TIM_SET_COMPARE(&htim4, TIM_CHANNEL_2, DRV_LOW_BRAKE_DUTY_CYCLE);
+
+	__HAL_TIM_SET_COMPARE(&htim2, TIM_CHANNEL_3, DRV_LOW_BRAKE_DUTY_CYCLE);
+	__HAL_TIM_SET_COMPARE(&htim2, TIM_CHANNEL_4, DRV_LOW_BRAKE_DUTY_CYCLE);
 }
 

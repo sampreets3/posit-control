@@ -44,30 +44,26 @@ extern void DrvLowStartMotor(void);
 /**
  * @brief   Forward rotation of the motor.
  *
- * @param	selector_en : Pass the motor to be selected.
  * @param	speed_u16   : Speed of the motor, which is duty cycle for pwm.
  *
  * @return  None
  */
-extern void DrvLowMotorMoveForward(DrvLowMotorSelectorEn selector_en, uint16_t speed_u16);
+extern void DrvLowMotorMoveForward(uint16_t speed_u16);
 
 /**
  * @brief   Reverse rotation of the motor.
  *
- * @param	selector_en : Pass the motor to be selected.
  * @param	speed_u16   : Speed of the motor, which is duty cycle for pwm.
  *
  * @return  None
  */
-extern void DrvLowMotorMoveReverse(DrvLowMotorSelectorEn selector_en, uint16_t speed_u16);
+extern void DrvLowMotorMoveReverse(uint16_t speed_u16);
 
 /**
  * @brief   Stop motor running.
  *
- * @param	selector_en : Pass the motor to be selected.
- *
  * @return  None
  */
-extern void DrvLowStopMotor(DrvLowMotorSelectorEn selector_en);
+extern void DrvLowStopMotor(void);
 
 #endif /* DRV_LOW_H_ */
