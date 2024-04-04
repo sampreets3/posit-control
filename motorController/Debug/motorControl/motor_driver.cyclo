@@ -1,5 +1,0 @@
-../motorControl/motor_driver.c:15:13:MotorDriverInit	1
-../motorControl/motor_driver.c:21:13:MotorDriverStartMotor	1
-../motorControl/motor_driver.c:27:13:MotorDriverMoveForward	1
-../motorControl/motor_driver.c:34:13:MotorDriverMoveBackward	1
-../motorControl/motor_driver.c:41:13:MotorDriverStopMotor	1

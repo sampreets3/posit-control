@@ -1,5 +1,0 @@
-../drv_low/drv_low.c:29:13:DrvLowInitController	1
-../drv_low/drv_low.c:56:13:DrvLowStartMotor	1
-../drv_low/drv_low.c:66:13:DrvLowMotorMoveForward	3
-../drv_low/drv_low.c:85:13:DrvLowMotorMoveReverse	3
-../drv_low/drv_low.c:104:13:DrvLowStopStopMotor	3
