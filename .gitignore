@@ -5,3 +5,5 @@ production/
 hardware/*.kicad_prl
 hardware/fp-info-cache
 firmware/Debug/*
+PositMotorController/Debug
+PositMotorController/.settings
