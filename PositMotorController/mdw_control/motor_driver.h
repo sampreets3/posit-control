@@ -31,7 +31,7 @@ extern void MotorDriverInit(void);
  *
  * @return  None
  */
-extern void MotorDriverStartMotor(void);
+extern void MotorDriverStartMotor(DrvLowMotorSelectorEn selector_en, DrvLowMotorDirectionEn dir_en, uint16_t speed_u16);
 
 /**
  * @brief   Move the motor forward.

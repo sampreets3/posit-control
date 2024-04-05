@@ -20,26 +20,27 @@ extern void MotorDriverInit(void)
 }
 
 
-extern void MotorDriverStartMotor(void)
+extern void MotorDriverStartMotor(DrvLowMotorSelectorEn selector_en, DrvLowMotorDirectionEn dir_en, uint16_t speed_u16)
 {
-	DrvLowStartMotor();
+	DrvLowStartMotor(selector_en, dir_en, speed_u16);
 }
 
 
 extern void MotorDriverMoveForward(uint16_t speed_u16)
 {
-	DrvLowMotorMoveForward(speed_u16);
+	DrvLowMotorMoveForward(DRV_LOW_RIGHT_MOTOR, speed_u16);
+	DrvLowMotorMoveForward(DRV_LOW_LEFT_MOTOR, speed_u16);
 }
 
 
 extern void MotorDriverMoveBackward(uint16_t speed_u16)
 {
-	DrvLowMotorMoveReverse(speed_u16);
+	DrvLowMotorMoveReverse(DRV_LOW_RIGHT_MOTOR, speed_u16);
+	DrvLowMotorMoveReverse(DRV_LOW_LEFT_MOTOR, speed_u16);
 }
 
 
 extern void MotorDriverStopMotor(DrvLowMotorSelectorEn selector_en)
 {
-	DrvLowStopMotor();
-	DrvLowStopMotor();
+	DrvLowStopMotor(selector_en);
 }
