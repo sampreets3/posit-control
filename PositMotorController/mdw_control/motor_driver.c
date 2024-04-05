@@ -9,7 +9,7 @@
  * Include Header Files
  ******************************************************************************/
 #include "motor_driver.h"
-#include "drv_low.h"
+#include "drv8874.h"
 
 /******************************************************************************
  * Extern Function Definitions

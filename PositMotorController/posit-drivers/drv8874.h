@@ -6,8 +6,8 @@
  *
  */
 
-#ifndef DRV_LOW_H_
-#define DRV_LOW_H_
+#ifndef DRV8874_H_
+#define DRV8874_H_
 
 /******************************************************************************
  * Include Header Files
@@ -81,4 +81,4 @@ extern void DrvLowMotorMoveReverse(DrvLowMotorSelectorEn selector_en, uint16_t s
  */
 extern void DrvLowStopMotor(DrvLowMotorSelectorEn selector_en);
 
-#endif /* DRV_LOW_H_ */
+#endif /* DRV8874_H_ */

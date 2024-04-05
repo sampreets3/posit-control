@@ -13,7 +13,8 @@
  * Include Header Files
  ******************************************************************************/
 #include "stdint.h"
-#include "drv_low.h"
+
+#include "../posit-drivers/drv8874.h"
 
 /******************************************************************************
  * Extern Function Declarations
